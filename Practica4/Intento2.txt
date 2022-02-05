@@ -1,0 +1,24 @@
+lw a0,salto		# cargamos el valor 10
+li a7,11 		# imprimimos el salto de linea ya que en codigo ASCII 10 es igual a \n
+ecall
+
+lw t0, 0(t4)
+
+mv a0, t0
+li a7,1
+ecall
+
+lw a0,salto		# cargamos el valor 10
+li a7,11 		# imprimimos el salto de linea ya que en codigo ASCII 10 es igual a \n
+ecall
+
+
+lw t1, 4(t4)
+
+mv a0, t1
+li a7,1
+ecall
+
+lw a0,salto		# cargamos el valor 10
+li a7,11 		# imprimimos el salto de linea ya que en codigo ASCII 10 es igual a \n
+ecall
